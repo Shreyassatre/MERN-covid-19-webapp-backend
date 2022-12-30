@@ -22,7 +22,7 @@ app.use(bodyParser.json())
 app.use(
   cors({
     origin: [
-      "http://localhost:3000", "https://covid-19-app.onrender.com", "https://covid-19-webapp-mern.netlify.app", "https://clever-platypus-4ebbba.netlify.app"],
+      "http://localhost:3000", "https://covid-19-app.onrender.com", "https://covid-19-mern-webapp.netlify.app"],
     credentials: true,
   })
 );
